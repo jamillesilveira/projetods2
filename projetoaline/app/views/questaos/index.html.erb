@@ -1,0 +1,31 @@
+<h1>Listing questaos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cod</th>
+      <th>Enunciado</th>
+      <th>Resposta</th>
+      <th>Pergunta</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @questaos.each do |questao| %>
+      <tr>
+        <td><%= questao.cod %></td>
+        <td><%= questao.enunciado %></td>
+        <td><%= questao.resposta %></td>
+        <td><%= questao.pergunta %></td>
+        <td><%= link_to 'Show', questao %></td>
+        <td><%= link_to 'Edit', edit_questao_path(questao) %></td>
+        <td><%= link_to 'Destroy', questao, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Questao', new_questao_path %>
