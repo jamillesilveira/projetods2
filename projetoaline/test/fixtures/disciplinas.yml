@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  descricaoDisciplina: MyString
+  codigoDisciplina: 1
+  references: 
+
+two:
+  descricaoDisciplina: MyString
+  codigoDisciplina: 1
+  references: 
