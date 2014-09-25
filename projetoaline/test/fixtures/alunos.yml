@@ -5,7 +5,7 @@ one:
   matricula: MyString
   senha: MyString
   email: MyString
-  dataDeNascimento: 
+  dataDeNascimento: 2014-09-24
   nota: MyString
 
 two:
@@ -13,5 +13,5 @@ two:
   matricula: MyString
   senha: MyString
   email: MyString
-  dataDeNascimento: 
+  dataDeNascimento: 2014-09-24
   nota: MyString

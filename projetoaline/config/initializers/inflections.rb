@@ -11,7 +11,12 @@
 # end
 
 # These inflection rules are supported but not enabled by default:
- ActiveSupport::Inflector.inflections(:en) do |inflect|
-   inflect.acronym 'RESTful'
-   inflect.irregular 'questao', 'questoes'
- end
+
+ActiveSupport::Inflector.inflections do |inflect|
+	inflect.irregular 'questao','questoes'
+end
+
+# ActiveSupport::Inflector.inflections(:en) do |inflect|
+#  inflect.acronym 'RESTful'
+#   inflect.irregular 'questao', 'questoes'
+# end
