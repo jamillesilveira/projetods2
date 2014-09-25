@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140925002345) do
+ActiveRecord::Schema.define(version: 20140925012541) do
 
   create_table "alunos", force: true do |t|
     t.string   "nome"
@@ -23,6 +23,35 @@ ActiveRecord::Schema.define(version: 20140925002345) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "bimestres", force: true do |t|
+    t.string   "descricaoBimestre"
+    t.integer  "codigoBimestre"
+    t.integer  "disciplina_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "bimestres", ["disciplina_id"], name: "index_bimestres_on_disciplina_id"
+
+  create_table "disciplinas", force: true do |t|
+    t.string   "descricaoDisciplina"
+    t.integer  "codigoDisciplina"
+    t.integer  "aluno_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "disciplinas", ["aluno_id"], name: "index_disciplinas_on_aluno_id"
+
+  create_table "lista", force: true do |t|
+    t.string   "titulo"
+    t.integer  "bimestre_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "lista", ["bimestre_id"], name: "index_lista_on_bimestre_id"
 
   create_table "questaos", force: true do |t|
     t.integer  "cod"
