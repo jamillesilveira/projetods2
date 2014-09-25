@@ -2,11 +2,11 @@ class CreateAlunos < ActiveRecord::Migration
   def change
     create_table :alunos do |t|
       t.string :nome
-      t.string :matricula
-      t.string :senha
+      t.string :matricula, limit: 8
+      t.string :senha, limit: 10
       t.string :email
       t.Date :dataDeNascimento
-      t.float :nota
+      t.string :nota
 
       t.timestamps
     end

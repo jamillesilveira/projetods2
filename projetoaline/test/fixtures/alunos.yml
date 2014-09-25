@@ -6,7 +6,7 @@ one:
   senha: MyString
   email: MyString
   dataDeNascimento: 
-  nota: 1.5
+  nota: MyString
 
 two:
   nome: MyString
@@ -14,4 +14,4 @@ two:
   senha: MyString
   email: MyString
   dataDeNascimento: 
-  nota: 1.5
+  nota: MyString
