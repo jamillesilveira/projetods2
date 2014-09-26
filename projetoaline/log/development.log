@@ -4075,4 +4075,191 @@ Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 21:49:43 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 21:49:43 -0300
+<<<<<<< HEAD
 >>>>>>> 93ef3ae285ff6338987a1904944baef7ea4bafac
+=======
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 22:11:05 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DisciplinasController#index as HTML
+  Rendered disciplinas/index.html.erb within layouts/application (46.0ms)
+Completed 500 Internal Server Error in 171ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: 		<td>Titulos</td> 
+     6: 	</tr>
+     7: 	
+     8: 	<% @disciplinas.each do |disciplina| %>
+     9: 	<tr>
+    10: 		<td>
+    11: 			<%= disciplina.descricaoDisciplina  %> 
+  app/views/disciplinas/index.html.erb:8:in `_app_views_disciplinas_index_html_erb__727084794_34783032'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (148.1ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 22:15:39 -0300
+Processing by DisciplinasController#index as HTML
+Completed 500 Internal Server Error in 12ms
+
+NameError (undefined local variable or method `disciplinas' for #<DisciplinasController:0x424ab08>):
+  app/controllers/disciplinas_controller.rb:3:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (153.6ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 22:15:56 -0300
+Processing by DisciplinasController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+NameError (uninitialized constant DisciplinasController::Disciplinas):
+  app/controllers/disciplinas_controller.rb:3:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (119.1ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 22:18:02 -0300
+Processing by DisciplinasController#index as HTML
+  [1m[35mDisciplina Load (3.0ms)[0m  SELECT "disciplinas".* FROM "disciplinas"
+  Rendered disciplinas/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 415ms (Views: 373.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 22:18:02 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 22:18:02 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 22:18:02 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 22:18:02 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 22:18:03 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 22:18:03 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 22:18:03 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 22:18:03 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 22:18:03 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 22:18:03 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:18:03 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:18:03 -0300
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 22:22:32 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DisciplinasController#index as HTML
+  [1m[35mDisciplina Load (0.0ms)[0m  SELECT "disciplinas".* FROM "disciplinas"
+  Rendered disciplinas/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 165ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 22:22:33 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 22:22:33 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 22:22:33 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 22:22:33 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 22:22:34 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 22:22:34 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 22:22:34 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 22:22:34 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 22:22:34 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 22:22:34 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:22:34 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:22:34 -0300
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (6.0ms)[0m  INSERT INTO "disciplinas" ("created_at", "descricaoDisciplina", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-09-26 01:24:09.095451"], ["descricaoDisciplina", "teste 1"], ["updated_at", "2014-09-26 01:24:09.095451"]]
+  [1m[36m (87.1ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 22:24:31 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DisciplinasController#index as HTML
+  [1m[35mDisciplina Load (0.0ms)[0m  SELECT "disciplinas".* FROM "disciplinas"
+  Rendered disciplinas/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 223ms (Views: 180.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+>>>>>>> 77ebf24c3eb610a71c10d270d18f8c40f1b18012
