@@ -1,2 +1,16 @@
 <h2>Disciplinas </h2>
 
+<table>
+	<tr>
+		<td>Titulos</td> 
+	</tr>
+	
+	<% @disciplinas.each do |disciplina| %>
+	<tr>
+		<td>
+			<%= disciplina.descricaoDisciplina  %> 
+		</td>
+	</tr>
+	<% end %>
+
+</table>
