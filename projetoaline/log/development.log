@@ -3461,6 +3461,96 @@ ActionView::MissingTemplate (Missing template disciplinas/index, application/ind
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (4.0ms)
 
 
+<<<<<<< HEAD
+Started GET "/alunos" for 127.0.0.1 at 2014-09-25 22:12:44 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 1459ms (Views: 1262.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 22:12:47 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:12:48 -0300
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-25 22:14:41 -0300
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 104ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:14:42 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 22:14:45 -0300
+
+AbstractController::ActionNotFound (The action 'new' could not be found for AlunosController):
+=======
 Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 21:48:42 -0300
   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by DisciplinasController#index as HTML
@@ -3807,6 +3897,7 @@ AbstractController::ActionNotFound (The action 'show' could not be found for Dis
 Started GET "/disciplinas/disciplinas" for 127.0.0.1 at 2014-09-25 21:49:36 -0300
 
 AbstractController::ActionNotFound (The action 'show' could not be found for DisciplinasController):
+>>>>>>> 93ef3ae285ff6338987a1904944baef7ea4bafac
   actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
   actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
@@ -3855,6 +3946,19 @@ AbstractController::ActionNotFound (The action 'show' could not be found for Dis
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.7ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 22:14:45 -0300
+
+AbstractController::ActionNotFound (The action 'new' could not be found for AlunosController):
+=======
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -3866,6 +3970,7 @@ AbstractController::ActionNotFound (The action 'show' could not be found for Dis
 Started GET "/disciplinas/disciplinas" for 127.0.0.1 at 2014-09-25 21:49:37 -0300
 
 AbstractController::ActionNotFound (The action 'show' could not be found for DisciplinasController):
+>>>>>>> 93ef3ae285ff6338987a1904944baef7ea4bafac
   actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
   actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
@@ -3914,6 +4019,14 @@ AbstractController::ActionNotFound (The action 'show' could not be found for Dis
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.5ms)
+=======
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -3962,6 +4075,9 @@ Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 21:49:43 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 21:49:43 -0300
+<<<<<<< HEAD
+>>>>>>> 93ef3ae285ff6338987a1904944baef7ea4bafac
+=======
 
 
 Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 22:11:05 -0300
@@ -4146,6 +4262,7 @@ Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:24:33 -0300
+<<<<<<< HEAD
 
 
 Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 23:00:43 -0300
@@ -4631,6 +4748,255 @@ Started GET "/aluno" for 127.0.0.1 at 2014-09-26 00:14:36 -0300
 
 ActionController::RoutingError (No route matches [GET] "/aluno"):
   actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+=======
+>>>>>>> 77ebf24c3eb610a71c10d270d18f8c40f1b18012
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-25 22:50:28 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 518ms (Views: 374.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:30 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:30 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:30 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:30 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:31 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:31 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:31 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:31 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 22:50:33 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 22:50:56 -0300
+Processing by DisciplinasController#index as HTML
+  [1m[35mDisciplina Load (0.8ms)[0m  SELECT "disciplinas".* FROM "disciplinas"
+  Rendered disciplinas/index.html.erb within layouts/application (69.3ms)
+Completed 200 OK in 266ms (Views: 122.0ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:50:57 -0300
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-25 22:51:14 -0300
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 77ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 22:51:14 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 22:51:14 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 22:51:14 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 22:51:14 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 22:51:15 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 22:51:15 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 22:51:15 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 22:51:15 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 22:51:15 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 22:51:15 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 22:51:15 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 22:51:15 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 22:51:19 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 57ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:05:50 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 46ms
+
+SyntaxError (/home/u/projetods2/projetoaline/app/views/alunos/new.html.erb:8: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.to_s
+                                    ^
+/home/u/projetods2/projetoaline/app/views/alunos/new.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+/home/u/projetods2/projetoaline/app/views/alunos/new.html.erb:11: syntax error, unexpected keyword_end, expecting ')'):
+  actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
   actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
   railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
   railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
@@ -4650,6 +5016,861 @@ ActionController::RoutingError (No route matches [GET] "/aluno"):
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (164.9ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:07:30 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 58ms
+
+SyntaxError (/home/u/projetods2/projetoaline/app/views/alunos/new.html.erb:8: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.to_s
+                                    ^
+/home/u/projetods2/projetoaline/app/views/alunos/new.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+/home/u/projetods2/projetoaline/app/views/alunos/new.html.erb:11: syntax error, unexpected keyword_end, expecting ')'):
+  actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (24.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (122.4ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:08:16 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (139.4ms)
+Completed 500 Internal Server Error in 168ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0xb6ce1f60>:0x9e81bd4>):
+    1: <h2>Cadastre-se...</h2>
+    2: 
+    3: <%= form_for @aluno do |a| %>
+    4: 	<%= f.label 'Nome...' %>
+    5: 	<%= f.text_field :nome %>
+    6: 
+    7: 	<%= f.submit 'Enviar' %>
+  app/views/alunos/new.html.erb:4:in `block in _app_views_alunos_new_html_erb__136037602_83100840'
+  app/views/alunos/new.html.erb:3:in `_app_views_alunos_new_html_erb__136037602_83100840'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.8ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:08:36 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (160.7ms)
+Completed 500 Internal Server Error in 193ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0xb6ce1f60>:0x98cead4>):
+    1: <h2>Cadastre-se...</h2>
+    2: 
+    3: <%= form_for @aluno do |a| %>
+    4: 	<%= f.label "Nome..." %>
+    5: 	<%= f.text_field :nome %>
+    6: 
+    7: 	<%= f.submit 'Enviar' %>
+  app/views/alunos/new.html.erb:4:in `block in _app_views_alunos_new_html_erb__136037602_80112650'
+  app/views/alunos/new.html.erb:3:in `_app_views_alunos_new_html_erb__136037602_80112650'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.1ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.0ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:09:20 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (249.2ms)
+Completed 200 OK in 328ms (Views: 325.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:09:21 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:09:36 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (75.3ms)
+Completed 500 Internal Server Error in 109ms
+
+ActionView::Template::Error (undefined method `placeholder' for #<ActionView::Helpers::FormBuilder:0xb6f5cb50>):
+    1: <h2>Cadastre-se...</h2>
+    2: 
+    3: <%= form_for @aluno do |a| %>
+    4: 	<%= a.placeholder "Nome..." %>
+    5: 	<%= a.text_field :nome %>
+    6: 
+    7: 	<%= a.submit 'Enviar' %>
+  app/views/alunos/new.html.erb:4:in `block in _app_views_alunos_new_html_erb__136037602__623368678'
+  app/views/alunos/new.html.erb:3:in `_app_views_alunos_new_html_erb__136037602__623368678'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.1ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.9ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 23:12:59 -0300
+Processing by DisciplinasController#index as HTML
+  [1m[36mDisciplina Load (1.2ms)[0m  [1mSELECT "disciplinas".* FROM "disciplinas"[0m
+  Rendered disciplinas/index.html.erb within layouts/application (56.7ms)
+Completed 200 OK in 166ms (Views: 133.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:00 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:13:13 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (237.0ms)
+Completed 500 Internal Server Error in 257ms
+
+ActionView::Template::Error (undefined method `placeholder' for #<ActionView::Helpers::FormBuilder:0xb67c1f94>):
+    1: <h2>Cadastre-se...</h2>
+    2: 
+    3: <%= form_for @aluno do |a| %>
+    4: 	<%= a.placeholder "Nome..." %>
+    5: 	<%= a.text_field :nome %>
+    6: 
+    7: 	<%= a.submit 'Enviar' %>
+  app/views/alunos/new.html.erb:4:in `block in _app_views_alunos_new_html_erb__136037602__623368678'
+  app/views/alunos/new.html.erb:3:in `_app_views_alunos_new_html_erb__136037602__623368678'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.6ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (51.3ms)
+Completed 200 OK in 162ms (Views: 153.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:29 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:30 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:13:30 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:17:21 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (122.0ms)
+Completed 500 Internal Server Error in 148ms
+
+ActionView::Template::Error (undefined method `datadenascimento' for #<Aluno:0x9edc020>):
+     8: 	<%= a.text_field :matricula, maxlength: 8 %>
+     9: 
+    10: 	<%= a.label "Data de Nascimento..." %>
+    11: 	<%= a.date_field :datadenascimento %>	
+    12: 
+    13: 	<%= a.label "Email..." %>
+    14: 	<%= a.email_field :email %>	
+  app/views/alunos/new.html.erb:11:in `block in _app_views_alunos_new_html_erb__136037602_83266650'
+  app/views/alunos/new.html.erb:3:in `_app_views_alunos_new_html_erb__136037602_83266650'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.5ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.1ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.4ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:18:41 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (52.6ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (undefined method `merge' for :datadenascimento:Symbol):
+     8: 	<%= a.text_field :matricula, maxlength: 8 %>
+     9: 
+    10: 	<%= a.label "Data de Nascimento..." %>
+    11: 	<%= a.date_field :user, :datadenascimento %>	
+    12: 
+    13: 	<%= a.label "Email..." %>
+    14: 	<%= a.email_field :email %>	
+  app/views/alunos/new.html.erb:11:in `block in _app_views_alunos_new_html_erb__136037602_81128700'
+  app/views/alunos/new.html.erb:3:in `_app_views_alunos_new_html_erb__136037602_81128700'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.1ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.1ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (138.9ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:19:03 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (51.8ms)
+Completed 500 Internal Server Error in 94ms
+
+ActionView::Template::Error (undefined method `datadenascimento' for #<Aluno:0x8d4afb4>):
+     8: 	<%= a.text_field :matricula, maxlength: 8 %>
+     9: 
+    10: 	<%= a.label "Data de Nascimento..." %>
+    11: 	<%= a.text_field :datadenascimento %>	
+    12: 
+    13: 	<%= a.label "Email..." %>
+    14: 	<%= a.email_field :email %>	
+  app/views/alunos/new.html.erb:11:in `block in _app_views_alunos_new_html_erb__136037602_74055520'
+  app/views/alunos/new.html.erb:3:in `_app_views_alunos_new_html_erb__136037602_74055520'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.2ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:19:35 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (144.6ms)
+Completed 200 OK in 200ms (Views: 198.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:35 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:35 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:35 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:35 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:36 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:36 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:36 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:36 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:36 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:19:53 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (67.8ms)
+Completed 200 OK in 139ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:53 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:53 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:53 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:53 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:53 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:19:53 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:53 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:54 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:54 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:54 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:54 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:19:54 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:20:24 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 132ms (Views: 129.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:20:24 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:20:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:20:24 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:20:24 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:20:25 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:20:25 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:20:25 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:20:25 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:20:25 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:20:25 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:20:25 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:20:25 -0300
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-09-25 23:21:40 -0300
+
+AbstractController::ActionNotFound (The action 'create' could not be found for AlunosController):
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.9ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 23:23:00 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DisciplinasController#index as HTML
+  [1m[35mDisciplina Load (0.8ms)[0m  SELECT "disciplinas".* FROM "disciplinas"
+  Rendered disciplinas/index.html.erb within layouts/application (123.6ms)
+Completed 200 OK in 1136ms (Views: 807.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:23:03 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:23:04 -0300
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-25 23:28:28 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DisciplinasController#index as HTML
+  [1m[35mDisciplina Load (0.7ms)[0m  SELECT "disciplinas".* FROM "disciplinas"
+  Rendered disciplinas/index.html.erb within layouts/application (61.8ms)
+Completed 200 OK in 533ms (Views: 383.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:28:30 -0300
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-25 23:32:25 -0300
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 99ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:32:26 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:32:28 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (263.9ms)
+Completed 200 OK in 419ms (Views: 352.3ms | ActiveRecord: 18.1ms)
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-09-25 23:32:35 -0300
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cY4Hzs3uIvAt7IlXz9QeXs9Wgo/WBhGnqqW5bynelEI=", "aluno"=>{"nome"=>"", "matricula"=>"", "dataDeNascimento"=>"", "email"=>"", "senha"=>""}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 44ms
+
+ActionView::MissingTemplate (Missing template alunos/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/u/projetods2/projetoaline/app/views"
+):
+  actionview (4.1.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.1) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -4997,6 +6218,333 @@ AbstractController::ActionNotFound (The action 'new' could not be found for Disc
   activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
   actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
   actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (3.3ms)
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-25 23:36:17 -0300
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 61ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:18 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:36:21 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (133.4ms)
+Completed 200 OK in 244ms (Views: 223.1ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-09-25 23:36:25 -0300
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cY4Hzs3uIvAt7IlXz9QeXs9Wgo/WBhGnqqW5bynelEI=", "aluno"=>{"nome"=>"", "matricula"=>"", "dataDeNascimento"=>"", "email"=>"", "senha"=>""}, "commit"=>"Enviar"}
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (20.4ms)[0m  INSERT INTO "alunos" ("created_at", "email", "matricula", "nome", "senha", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-09-26 02:36:26.007402"], ["email", ""], ["matricula", ""], ["nome", ""], ["senha", ""], ["updated_at", "2014-09-26 02:36:26.007402"]]
+  [1m[36m (51.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/alunos
+Completed 302 Found in 308ms (ActiveRecord: 72.3ms)
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-25 23:36:26 -0300
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 85ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:26 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:26 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:26 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:26 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:26 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:36:26 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:27 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:27 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:27 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:27 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:27 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:36:27 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:49:48 -0300
+Processing by AlunosController#new as HTML
+Completed 500 Internal Server Error in 16ms
+
+ArgumentError (Unknown validator: 'RequiredValidator'):
+  app/models/aluno.rb:2:in `<class:Aluno>'
+  app/models/aluno.rb:1:in `<top (required)>'
+  app/controllers/alunos_controller.rb:8:in `new'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (190.7ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:49:48 -0300
+Processing by AlunosController#new as HTML
+Completed 500 Internal Server Error in 44ms
+
+ArgumentError (Unknown validator: 'RequiredValidator'):
+  app/models/aluno.rb:2:in `<class:Aluno>'
+  app/models/aluno.rb:1:in `<top (required)>'
+  app/controllers/alunos_controller.rb:8:in `new'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (21.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (114.1ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:50:44 -0300
+Processing by AlunosController#new as HTML
+Completed 500 Internal Server Error in 9ms
+
+ArgumentError (Unknown validator: 'RequiredValidator'):
+  app/models/aluno.rb:4:in `<class:Aluno>'
+  app/models/aluno.rb:3:in `<top (required)>'
+  app/controllers/alunos_controller.rb:8:in `new'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.8ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (143.4ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:52:36 -0300
+Processing by AlunosController#new as HTML
+Completed 500 Internal Server Error in 18ms
+
+ArgumentError (Unknown validator: 'RequiredValidator'):
+  app/models/aluno.rb:4:in `<class:Aluno>'
+  app/models/aluno.rb:3:in `<top (required)>'
+  app/controllers/alunos_controller.rb:8:in `new'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (148.7ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:53:23 -0300
+Processing by AlunosController#new as HTML
+Completed 500 Internal Server Error in 24ms
+
+ArgumentError (Unknown validator: 'RequiredValidator'):
+  app/models/aluno.rb:4:in `<class:Aluno>'
+  app/models/aluno.rb:3:in `<top (required)>'
+  app/controllers/alunos_controller.rb:8:in `new'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (27.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (208.6ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:55:33 -0300
+Processing by AlunosController#new as HTML
+Completed 500 Internal Server Error in 25ms
+
+ArgumentError (Unknown validator: 'RequiredValidator'):
+  app/models/aluno.rb:4:in `<class:Aluno>'
+  app/models/aluno.rb:3:in `<top (required)>'
+  app/controllers/alunos_controller.rb:8:in `new'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.8ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (148.6ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-25 23:57:02 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (59.1ms)
+Completed 200 OK in 235ms (Views: 190.2ms | ActiveRecord: 29.3ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:57:03 -0300
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-09-25 23:58:56 -0300
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cY4Hzs3uIvAt7IlXz9QeXs9Wgo/WBhGnqqW5bynelEI=", "aluno"=>{"nome"=>"", "matricula"=>"", "dataDeNascimento"=>"", "email"=>"", "senha"=>""}, "commit"=>"Enviar"}
+Redirected to http://localhost:3000/alunos
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 152ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 23:58:57 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-26 00:03:51 -0300
+
+SyntaxError (/home/u/projetods2/projetoaline/config/routes.rb:7: syntax error, unexpected ':', expecting keyword_end
+    erb: about.html
+        ^):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.1) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
   actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
   actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
@@ -5018,6 +6566,7 @@ AbstractController::ActionNotFound (The action 'new' could not be found for Disc
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -5029,6 +6578,104 @@ AbstractController::ActionNotFound (The action 'new' could not be found for Disc
 Started GET "/disciplinas/new" for 127.0.0.1 at 2014-09-26 00:23:42 -0300
 
 AbstractController::ActionNotFound (The action 'new' could not be found for DisciplinasController):
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.4ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (195.6ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-26 00:03:52 -0300
+
+ActionController::RoutingError (No route matches [GET] "/alunos/new"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (28.1ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (638.8ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-26 00:04:28 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 171ms (Views: 105.9ms | ActiveRecord: 48.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-26 00:04:29 -0300
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-09-26 00:04:33 -0300
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cY4Hzs3uIvAt7IlXz9QeXs9Wgo/WBhGnqqW5bynelEI=", "aluno"=>{"nome"=>"", "matricula"=>"", "dataDeNascimento"=>"", "email"=>"", "senha"=>""}, "commit"=>"Enviar"}
+Redirected to http://localhost:3000/alunos/show
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alunos/show" for 127.0.0.1 at 2014-09-26 00:04:34 -0300
+
+AbstractController::ActionNotFound (The action 'show' could not be found for AlunosController):
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
   actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
@@ -5077,6 +6724,7 @@ AbstractController::ActionNotFound (The action 'new' could not be found for Disc
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -5090,6 +6738,94 @@ Started GET "/disciplinas/new" for 127.0.0.1 at 2014-09-26 00:37:09 -0300
 
 AbstractController::ActionNotFound (The action 'new' could not be found for DisciplinasController):
   actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (5.0ms)
+
+
+Started GET "/alunos/show" for 127.0.0.1 at 2014-09-26 00:06:02 -0300
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered alunos/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 24ms
+
+SyntaxError (/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:1: syntax error, unexpected ')', expecting =>
+...tro", method: :delete, @aluno );@output_buffer.to_s
+...                               ^
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:2: syntax error, unexpected keyword_ensure, expecting ')'
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:4: syntax error, unexpected keyword_end, expecting ')'):
+  actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
   actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
@@ -5137,6 +6873,7 @@ AbstractController::ActionNotFound (The action 'new' could not be found for Disc
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -5157,6 +6894,52 @@ ActionView::MissingTemplate (Missing template disciplinas/new, application/new w
   C:in `find_template'
   actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
   actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (167.4ms)
+
+
+Started GET "/alunos/show" for 127.0.0.1 at 2014-09-26 00:09:05 -0300
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered alunos/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 21ms
+
+SyntaxError (/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:1: syntax error, unexpected ')', expecting =>
+...tro", method: :delete, @aluno );@output_buffer.to_s
+...                               ^
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:2: syntax error, unexpected keyword_ensure, expecting ')'
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:4: syntax error, unexpected keyword_end, expecting ')'):
+  actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
   actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
   actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
@@ -5168,7 +6951,11 @@ ActionView::MissingTemplate (Missing template disciplinas/new, application/new w
   actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
   activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
@@ -5249,6 +7036,7 @@ ActionView::MissingTemplate (Missing template disciplinas/new, application/new w
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -5308,13 +7096,41 @@ Completed 500 Internal Server Error in 21ms
 
 SyntaxError (C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:8: syntax error, unexpected keyword_ensure, expecting keyword_end
 C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax error, unexpected $end, expecting keyword_end):
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.8ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (127.9ms)
+
+
+Started GET "/alunos/show" for 127.0.0.1 at 2014-09-26 00:09:07 -0300
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered alunos/show.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 27ms
+
+SyntaxError (/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:1: syntax error, unexpected ')', expecting =>
+...tro", method: :delete, @aluno );@output_buffer.to_s
+...                               ^
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:2: syntax error, unexpected keyword_ensure, expecting ')'
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:4: syntax error, unexpected keyword_end, expecting ')'):
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
   actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
   actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
   activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
   actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
   actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+<<<<<<< HEAD
   <internal:prelude>:10:in `synchronize'
+=======
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
   actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
   activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
@@ -5341,7 +7157,11 @@ C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax e
   actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
   activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
@@ -5422,6 +7242,7 @@ C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax e
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -5440,13 +7261,57 @@ Completed 500 Internal Server Error in 7ms
 
 SyntaxError (C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:8: syntax error, unexpected keyword_ensure, expecting keyword_end
 C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax error, unexpected $end, expecting keyword_end):
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (45.8ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.8ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (171.9ms)
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-09-26 00:09:11 -0300
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cY4Hzs3uIvAt7IlXz9QeXs9Wgo/WBhGnqqW5bynelEI=", "aluno"=>{"nome"=>"", "matricula"=>"", "dataDeNascimento"=>"", "email"=>"", "senha"=>""}, "commit"=>"Enviar"}
+Redirected to 
+Completed 500 Internal Server Error in 158ms
+
+NoMethodError (undefined method `show_url' for #<AlunosController:0xb38fecc>):
+  app/controllers/alunos_controller.rb:13:in `create'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (25.5ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.1ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (182.3ms)
+
+
+Started GET "/alunos/show" for 127.0.0.1 at 2014-09-26 00:09:30 -0300
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered alunos/show.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 28ms
+
+SyntaxError (/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:1: syntax error, unexpected ')', expecting =>
+...tro", method: :delete, @aluno );@output_buffer.to_s
+...                               ^
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:2: syntax error, unexpected keyword_ensure, expecting ')'
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:4: syntax error, unexpected keyword_end, expecting ')'):
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
   actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
   actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
   activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
   actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
   actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+<<<<<<< HEAD
   <internal:prelude>:10:in `synchronize'
+=======
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
   actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
   activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
@@ -5473,7 +7338,11 @@ C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax e
   actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
   activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
@@ -5554,6 +7423,7 @@ C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax e
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -5572,13 +7442,42 @@ Completed 500 Internal Server Error in 6ms
 
 SyntaxError (C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:8: syntax error, unexpected keyword_ensure, expecting keyword_end
 C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax error, unexpected $end, expecting keyword_end):
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (126.1ms)
+
+
+Started GET "/alunos/show" for 127.0.0.1 at 2014-09-26 00:15:20 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered alunos/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 191ms
+
+SyntaxError (/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:1: syntax error, unexpected ')', expecting =>
+...tro", method: :delete, @aluno );@output_buffer.to_s
+...                               ^
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:2: syntax error, unexpected keyword_ensure, expecting ')'
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:4: syntax error, unexpected keyword_end, expecting ')'):
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
   actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
   actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
   activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
   actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
   actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+<<<<<<< HEAD
   <internal:prelude>:10:in `synchronize'
+=======
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
   actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
   activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
@@ -5605,7 +7504,11 @@ C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax e
   actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
   activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
   actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
@@ -5686,6 +7589,7 @@ C:/Sites/projetods2/projetoaline/app/views/disciplinas/new.html.erb:10: syntax e
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -5960,6 +7864,202 @@ Started POST "/disciplinas" for 127.0.0.1 at 2014-09-26 01:15:21 -0300
 
 AbstractController::ActionNotFound (The action 'create' could not be found for DisciplinasController):
   actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.4ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (137.2ms)
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-26 00:15:29 -0300
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 511ms (Views: 508.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:30 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:30 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:30 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:30 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:31 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:31 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:31 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:31 -0300
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-09-26 00:15:33 -0300
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (286.9ms)
+Completed 200 OK in 363ms (Views: 332.9ms | ActiveRecord: 5.7ms)
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-09-26 00:15:38 -0300
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cY4Hzs3uIvAt7IlXz9QeXs9Wgo/WBhGnqqW5bynelEI=", "aluno"=>{"nome"=>"", "matricula"=>"", "dataDeNascimento"=>"", "email"=>"", "senha"=>""}, "commit"=>"Enviar"}
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError (undefined method `/' for :alunos:Symbol):
+  app/controllers/alunos_controller.rb:13:in `create'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (119.8ms)
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-09-26 00:15:51 -0300
+Processing by AlunosController#index as HTML
+  Rendered alunos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 109ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:51 -0300
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:51 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-26 00:15:52 -0300
+
+
+Started GET "/alunos/show" for 127.0.0.1 at 2014-09-26 00:16:26 -0300
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered alunos/show.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 37ms
+
+SyntaxError (/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:1: syntax error, unexpected ')', expecting =>
+...tro", method: :delete, @aluno );@output_buffer.to_s
+...                               ^
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:2: syntax error, unexpected keyword_ensure, expecting ')'
+/home/u/projetods2/projetoaline/app/views/alunos/show.html.erb:4: syntax error, unexpected keyword_end, expecting ')'):
+  actionview (4.1.1) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.1) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.1) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.1) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.1) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
   actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
   actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
@@ -5972,7 +8072,11 @@ AbstractController::ActionNotFound (The action 'create' could not be found for D
   actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
   actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
   rack (1.5.2) lib/rack/etag.rb:23:in `call'
+<<<<<<< HEAD
   rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+=======
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   rack (1.5.2) lib/rack/head.rb:11:in `call'
   actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
   actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
@@ -6007,6 +8111,7 @@ AbstractController::ActionNotFound (The action 'create' could not be found for D
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
@@ -6047,6 +8152,23 @@ AbstractController::ActionNotFound (The action 'create' could not be found for D
   actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
   actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
   actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (139.3ms)
+
+
+Started GET "/alunos/show/1" for 127.0.0.1 at 2014-09-26 00:16:33 -0300
+
+ActionController::RoutingError (No route matches [GET] "/alunos/show/1"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
   actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
   railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
   railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
@@ -6066,9 +8188,77 @@ AbstractController::ActionNotFound (The action 'create' could not be found for D
   rack (1.5.2) lib/rack/lock.rb:17:in `call'
   rack (1.5.2) lib/rack/content_length.rb:14:in `call'
   rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+<<<<<<< HEAD
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
   C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.0ms)
+=======
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (25.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (30.0ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (325.5ms)
+>>>>>>> c4965a6a44a8154a04bc14a9ed287280710ee172
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-26 08:36:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (12.0ms)
+Completed 200 OK in 115ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-09-26 08:36:58 -0300
+Processing by DisciplinasController#index as HTML
+  [1m[35mDisciplina Load (0.0ms)[0m  SELECT "disciplinas".* FROM "disciplinas"
+  Rendered disciplinas/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 1617ms (Views: 1595.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-09-26 08:37:00 -0300
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-09-26 08:37:00 -0300
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-09-26 08:37:00 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-26 08:37:00 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-26 08:37:00 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-26 08:37:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-26 08:37:00 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-26 08:37:01 -0300
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-09-26 08:37:01 -0300
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-09-26 08:37:01 -0300
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-09-26 08:37:01 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-26 08:37:01 -0300
+
+
+Started GET "/disciplinas/new" for 127.0.0.1 at 2014-09-26 08:37:06 -0300
+Processing by DisciplinasController#new as HTML
+  Rendered disciplinas/new.html.erb within layouts/application (198.3ms)
+Completed 200 OK in 260ms (Views: 258.3ms | ActiveRecord: 0.0ms)

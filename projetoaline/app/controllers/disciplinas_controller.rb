@@ -5,6 +5,7 @@ class DisciplinasController < ApplicationController
 	def new
 		@disciplina = Disciplina.new
 	end
+	
 	/def uptade
 		@disciplina = d.ip
 	end/
