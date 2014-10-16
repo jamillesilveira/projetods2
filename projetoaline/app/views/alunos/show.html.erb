@@ -1,1 +1,11 @@
-<%= link_to "Excluir meu cadastro", method: :delete, @aluno %>
+<h2>Alunos</h2>
+
+<% @aluno.each do |a| %>
+
+<%= a.nome %>
+
+<%=link_to "Excluir", a, method: :delete %>
+
+<br>
+
+<% end %>
