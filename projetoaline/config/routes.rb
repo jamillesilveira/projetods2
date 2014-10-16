@@ -3,11 +3,16 @@ Rails.application.routes.draw do
   resources :disciplinas
   resources :alunos
 
+<<<<<<< HEAD
   get 'login' => 'login#index', as: :login_form
 
   post 'login/login', as: :login
   post 'login/logout', as: :logout
   
+=======
+  root 'alunos#home'
+
+>>>>>>> 04a38fbfcdd9059558d553a4df47a748f856d1a5
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

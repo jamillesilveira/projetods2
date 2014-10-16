@@ -1,5 +1,15 @@
-<p>Esse site é destinado aos alunos de ensino integrado do 1, 2 e 3 anos de matemática da professora Aline Macedo do Instituto Federal de Ciência, Educação e Tecnologia Campus Rio Grande. </p>
+<h2>Alunos</h2>
 
-<p>Faça o login ou <%= link_to "cadastre-se", new_aluno_path%> para ter acesso ao conteúdo do site.</p>
+<% @aluno.each do |a| %>
 
-<p>Contato: aline.macedo@ifrs.riogrande.edu.br</p>
+<%= a.nome %>
+
+<%= link_to "Ver Perfil", aluno_path(a) %>
+
+<%=link_to "Excluir", a, method: :delete %>
+
+<%=link_to "Editar", edit_aluno_path(a) %>
+
+<br>
+
+<% end %>
