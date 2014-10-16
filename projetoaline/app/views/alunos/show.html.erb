@@ -1,11 +1,2 @@
-<h2>Alunos</h2>
-
-<% @aluno.each do |a| %>
-
-<%= a.nome %>
-
-<%=link_to "Excluir", a, method: :delete %>
-
-<br>
-
-<% end %>
+<h2><%= @aluno.nome %></h2>
+<h3>Matricula: <%= @aluno.matricula %></h3>
