@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140925012541) do
+ActiveRecord::Schema.define(version: 20140926134344) do
 
   create_table "alunos", force: true do |t|
     t.string   "nome"
@@ -36,13 +36,10 @@ ActiveRecord::Schema.define(version: 20140925012541) do
 
   create_table "disciplinas", force: true do |t|
     t.string   "descricaoDisciplina"
-    t.integer  "codigoDisciplina"
-    t.integer  "aluno_id"
+    t.string   "codigoDisciplina"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  add_index "disciplinas", ["aluno_id"], name: "index_disciplinas_on_aluno_id"
 
   create_table "lista", force: true do |t|
     t.string   "titulo"

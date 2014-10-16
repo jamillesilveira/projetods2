@@ -2,14 +2,11 @@
 
 <%= form_for @disciplina do |disciplina| %>
 
-<%= disciplina.label "Descrição" %>
-<%= disciplina.text_field :descricaoDisciplina %>
-
 <%= disciplina.label "Codigo" %>
 <%= disciplina.text_field :codigoDisciplina %>
 
-<%= disciplina.label "Id do aluno" %>
-<%= disciplina.text_field :aluno_id %>
+<%= disciplina.label "Descrição" %>
+<%= disciplina.text_field :descricaoDisciplina %>
 
 <%= disciplina.submit 'Criar' %>
 <% end %>

@@ -2,10 +2,8 @@
 
 one:
   descricaoDisciplina: MyString
-  codigoDisciplina: 1
-  aluno_id: 
+  codigoDisciplina: MyString
 
 two:
   descricaoDisciplina: MyString
-  codigoDisciplina: 1
-  aluno_id: 
+  codigoDisciplina: MyString
