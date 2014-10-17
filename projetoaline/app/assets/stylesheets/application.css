@@ -24,11 +24,12 @@ h1 {
 }
 
 header {
-	/*background-image: url(images/banner.jpg);*/
+	background-image: url(/banner.jpg);
+	background-position: center;
+	background-size: 100%;
 	height: 300px;
 	width:100%;
 	margin: 0 auto;
-	background-color: #6c816e;	
 }
 section {
 	/* background-image: url('../images/fundo-rosa.jpg'); */
