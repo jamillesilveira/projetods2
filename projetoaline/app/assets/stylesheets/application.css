@@ -13,14 +13,18 @@
  *= require_tree .
  *= require_self
  */
- 
+* {
+	font-family: Arial;
+	margin: 0px;
+}
+
 h1 {
 	margin-left: 758px;
 	color:pink;
-	 }
+}
 
 header {
-	/* background-image: url('../images/fundo-rosa.jpg'); */
+	/* background-image: url('../images/banner.jpg'); */
 
 	height: 300px;
 	width:1000px;
