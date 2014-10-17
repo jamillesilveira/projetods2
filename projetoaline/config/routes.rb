@@ -1,11 +1,17 @@
 Rails.application.routes.draw do
+ 
+  get 'login' => 'login#index', as: :login_form
+  get 'login/login', as: :login
+  get 'login/logout', as: :logout
+
+
   resources :questaos
   resources :disciplinas
   resources :alunos
 
 # HEAD
   
-  get 'login' => 'login#index', as: :login_form
+  
   #post 'login/login', as: :login
   #post 'login/logout', as: :logout
   

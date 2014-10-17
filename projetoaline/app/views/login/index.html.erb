@@ -1,1 +1,17 @@
-<h1>Hello world<h1>
+<div>
+	<%= form_tag(action:'login', method:'post') do %>
+	<h2>LOGIN</h2>
+        
+        <input type="email" placeholder="Usuário" required autofocus> <br>        
+        <input type="password"  placeholder="Senha" required> <br>
+
+        <label >
+          <input type="checkbox" value="remember-me"> Me lembre
+        </label>
+        
+        <button type="submit">Efetuar login!</button>
+
+	<% end %>
+        
+    
+</div>

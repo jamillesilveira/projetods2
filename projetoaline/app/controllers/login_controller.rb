@@ -1,5 +1,10 @@
 class LoginController < ApplicationController
-	def index
-		redirect_to :login_form
-	end
+  def index
+  end
+
+  def login
+  end
+
+  def logout
+  end
 end
