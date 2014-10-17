@@ -24,23 +24,22 @@ h1 {
 }
 
 header {
-	/* background-image: url('../images/banner.jpg'); */
-
+	/*background-image: url(images/banner.jpg);*/
 	height: 300px;
-	width:1000px;
+	width:100%;
 	margin: 0 auto;
 	background-color: #6c816e;	
 }
 section {
 	/* background-image: url('../images/fundo-rosa.jpg'); */
 	height: 500px;
-	width:1000px;
+	width:100%;
 	margin: 0 auto;
 	background-color: #f1ccdd;
 }
 footer {
 	height: 125px;
-	width:1000px;
+	width:100%;
 	margin: 0 auto;
 	background-color: #6c816e;	
 
