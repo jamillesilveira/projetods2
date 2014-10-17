@@ -32,11 +32,10 @@ header {
 	margin: 0 auto;
 }
 section {
-	/* background-image: url('../images/fundo-rosa.jpg'); */
+	background-image: url(/fundo-rosa.jpg);
 	height: 500px;
 	width:100%;
 	margin: 0 auto;
-	background-color: #f1ccdd;
 }
 footer {
 	height: 125px;
