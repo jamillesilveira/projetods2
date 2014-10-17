@@ -4,10 +4,10 @@ Rails.application.routes.draw do
   resources :alunos
 
 # HEAD
+  
   get 'login' => 'login#index', as: :login_form
-
-  post 'login/login', as: :login
-  post 'login/logout', as: :logout
+  #post 'login/login', as: :login
+  #post 'login/logout', as: :logout
   
 
   root 'alunos#home'
