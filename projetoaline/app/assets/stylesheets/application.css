@@ -13,22 +13,31 @@
  *= require_tree .
  *= require_self
  */
- *{
- 	width: 1000px;
- 	margin: 0 auto;
-}
+ 
+h1 {
+	margin-left: 758px;
+	color:pink;
+	 }
+
 header {
 	/* background-image: url('../images/fundo-rosa.jpg'); */
+
 	height: 300px;
+	width:1000px;
+	margin: 0 auto;
 	background-color: #6c816e;	
 }
 section {
 	/* background-image: url('../images/fundo-rosa.jpg'); */
 	height: 500px;
+	width:1000px;
+	margin: 0 auto;
 	background-color: #f1ccdd;
 }
 footer {
 	height: 125px;
+	width:1000px;
+	margin: 0 auto;
 	background-color: #6c816e;	
 
 }
