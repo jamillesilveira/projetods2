@@ -42,5 +42,8 @@ footer {
 	width:100%;
 	margin: 0 auto;
 	background-color: #6c816e;	
-
+}
+footer img {
+	float: right;
+	margin-right: 50px;
 }
