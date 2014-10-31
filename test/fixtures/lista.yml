@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  titulo: MyString
+  bimestre_id: 
+
+two:
+  titulo: MyString
+  bimestre_id: 

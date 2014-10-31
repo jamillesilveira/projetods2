@@ -1,0 +1,15 @@
+<h2>Alunos</h2>
+
+<% @aluno.each do |a| %>
+
+<%= a.nome %>
+
+<%= link_to "Ver Perfil", aluno_path(a) %>
+
+<%=link_to "Excluir", a, method: :delete %>
+
+<%=link_to "Editar", edit_aluno_path(a) %>
+
+<br>
+
+<% end %>

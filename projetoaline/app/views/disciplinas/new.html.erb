@@ -1,0 +1,12 @@
+<h2> Criação de nova disciplina </h2>
+
+<%= form_for @disciplina do |disciplina| %>
+
+<%= disciplina.label "Codigo" %>
+<%= disciplina.text_field :codigoDisciplina %>
+
+<%= disciplina.label "Descrição" %>
+<%= disciplina.text_field :descricaoDisciplina %>
+
+<%= disciplina.submit 'Criar' %>
+<% end %>

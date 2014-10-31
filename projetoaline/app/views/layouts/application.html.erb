@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projeto Site Aline</title>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+
+</head>
+<header>
+	<div>
+		<a href="login" ><h1> Fazer LOGIN  </h1></a>	
+	</div>
+</header>
+<body>
+	<section>
+		
+	<%= yield %>
+
+	</section>
+</body>
+<footer>
+	<p>Site desenvolvido pelos alunos: <br/> Jamille Silveira, Maicon Moraes e Ramesses Munhoz</p>
+	<a href="http://riogrande.ifrs.edu.br" target="_blank">
+		<img src="/logo.png">
+	</a>
+</footer>
+</html>

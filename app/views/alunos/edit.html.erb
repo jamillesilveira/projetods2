@@ -1,0 +1,20 @@
+<h2>Editar cadastro...</h2>
+
+<%= form_for @aluno do |a| %>
+	<%= a.label "Nome..." %>
+	<%= a.text_field :nome %>
+
+	<%= a.label "Matrícula..." %>
+	<%= a.text_field :matricula, maxlength: 8 %>
+
+	<%= a.label "Data de Nascimento..." %>
+	<%= a.date_field :dataDeNascimento %>	
+
+	<%= a.label "Email..." %>
+	<%= a.email_field :email %>	
+
+	<%= a.label "Senha..." %>
+	<%= a.password_field :senha, maxlength: 10 %>	
+
+	<%= a.submit 'Enviar' %>
+<% end %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cod: 1
+  enunciado: MyString
+  resposta: MyString
+  pergunta: 
+
+two:
+  cod: 1
+  enunciado: MyString
+  resposta: MyString
+  pergunta: 

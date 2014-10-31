@@ -1,0 +1,26 @@
+<h2>Disciplinas </h2>
+
+<%= link_to "Definir uma nova disciplina", new_disciplina_path %>
+
+
+<table border="2">
+	<tr>
+		<td>id</td>
+		<td>Codigo da disciplina</td>
+		<td>Descricao</td>
+		<td>Criada em</td> 
+		<td>Alterada em</td> 
+	</tr>
+	
+	<% @disciplinas.each do |disciplina| %>
+	<tr>
+		<td><%= disciplina.id  %></td>	
+		<td><%= disciplina.codigoDisciplina  %></td>
+		<td><%= disciplina.descricaoDisciplina  %></td>
+		<td><%= disciplina.created_at  %></td>
+		<td><%= disciplina.updated_at  %></td>
+	</tr>
+	<% end %>
+
+
+</table>
