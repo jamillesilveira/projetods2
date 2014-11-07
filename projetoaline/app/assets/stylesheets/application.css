@@ -45,5 +45,13 @@ footer {
 }
 footer img {
 	float: right;
-	margin-right: 50px;
+	padding-right: 50px;
+	margin-top: -50px;
+	width: 300px;
+}
+footer p {
+	color: #000;
+	font-size: 11pt;
+	padding-top: 55px;
+	padding-left: 120px;
 }
