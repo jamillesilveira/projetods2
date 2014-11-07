@@ -24707,3 +24707,631 @@ Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:11:39 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:11:39 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:14:41 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (7.1ms)
+Completed 200 OK in 700ms (Views: 480.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:14:44 -0200
+
+
+Started GET "/alunos/" for 127.0.0.1 at 2014-11-07 11:17:31 -0200
+Processing by AlunosController#index as HTML
+  [1m[35mAluno Load (1.9ms)[0m  SELECT "alunos".* FROM "alunos"
+  Rendered alunos/index.html.erb within layouts/application (167.7ms)
+Completed 200 OK in 319ms (Views: 288.7ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:17:32 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:17:33 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:17:33 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:17:33 -0200
+
+
+Started GET "/alunos/show/" for 127.0.0.1 at 2014-11-07 11:17:34 -0200
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mAluno Load (0.9ms)[0m  [1mSELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 32ms
+
+ActiveRecord::RecordNotFound (Couldn't find Aluno with 'id'=show):
+  app/controllers/alunos_controller.rb:30:in `show'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (28.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (230.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:24:28 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (1.0ms)
+Completed 200 OK in 266ms (Views: 264.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:24:28 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:24:29 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:25:21 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (0.7ms)
+Completed 200 OK in 158ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:22 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:25:51 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (0.7ms)
+Completed 200 OK in 133ms (Views: 131.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:25:52 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:26:09 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (0.7ms)
+Completed 200 OK in 261ms (Views: 259.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-07 11:26:09 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:26:10 -0200
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-11-07 11:28:18 -0200
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (577.7ms)
+Completed 200 OK in 669ms (Views: 666.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-11-07 11:28:42 -0200
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (54.4ms)
+Completed 200 OK in 654ms (Views: 650.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:43 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:28:46 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (2.6ms)
+Completed 200 OK in 80ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:28:48 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (1.0ms)
+Completed 200 OK in 96ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:48 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:48 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:48 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:48 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:28:48 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:48 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:49 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:49 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:49 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:49 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:49 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:49 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:28:49 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:29:24 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (1.2ms)
+Completed 200 OK in 207ms (Views: 204.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:24 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:24 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:24 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:24 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:24 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:25 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:25 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:25 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:25 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:25 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:25 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:25 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:25 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:29:37 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (0.9ms)
+Completed 200 OK in 204ms (Views: 201.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:29:38 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:45:59 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (11.4ms)
+Completed 200 OK in 923ms (Views: 753.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:46:02 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:46:02 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:46:02 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:46:02 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:46:03 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:48:44 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (1.3ms)
+Completed 200 OK in 325ms (Views: 322.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:48:44 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:48:45 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 11:49:51 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (0.8ms)
+Completed 200 OK in 230ms (Views: 228.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-07 11:49:51 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-07 11:49:51 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 11:49:52 -0200
