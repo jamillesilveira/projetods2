@@ -3,10 +3,29 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .container {
-  padding-right: 50px;
-  padding-left: 90px;
+  padding-right: 100px;
+  padding-left: 100px;
   padding-top: 110px;
   margin-right: auto;
   margin-left: auto;
 }
 
+span {
+	color: #d35b94;
+}
+
+.descricao {
+	font-size: 18pt;
+}
+
+.cadastro {
+	font-size: 16pt;
+	margin-top: 40px;
+	margin-left: 400px;
+}
+
+.contato {
+	font-size: 14pt;
+	margin-top: 70px;
+	margin-left: 700px;
+}
