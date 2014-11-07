@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
  
   get 'login' => 'login#index', as: :login_form
-  get 'login/login', as: :login
+  post 'login/login', as: :login
   get 'login/logout', as: :logout
 
 
