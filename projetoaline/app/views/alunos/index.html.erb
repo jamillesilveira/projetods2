@@ -1,15 +1,12 @@
 <h2>Alunos</h2>
+<table class="alunos">
+	<% @aluno.each do |a| %>
 
-<% @aluno.each do |a| %>
-
-<%= a.nome %>
-
-<%= link_to "Ver Perfil", aluno_path(a) %>
-
-<%=link_to "Excluir", a, method: :delete %>
-
-<%=link_to "Editar", edit_aluno_path(a) %>
-
-<br>
-
-<% end %>
+	<tr>
+		<td><%= a.nome %></td>
+		<td><%= link_to "Ver Perfil", aluno_path(a) %></td>
+		<td><%=link_to "Excluir", a, method: :delete %></td>
+		<td><%=link_to "Editar", edit_aluno_path(a) %></td>
+	</tr>
+	<% end %>
+</table>
