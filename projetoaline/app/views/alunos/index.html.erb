@@ -4,9 +4,9 @@
 
 	<tr>
 		<td><%= a.nome %></td>
-		<td><%= link_to "Ver Perfil", aluno_path(a) %></td>
-		<td><%=link_to "Excluir", a, method: :delete %></td>
-		<td><%=link_to "Editar", edit_aluno_path(a) %></td>
+		<td><%= link_to image_tag("/exibir.png", :title => "Exibir perfil do aluno"), aluno_path(a) %></td>
+		<td><%=link_to image_tag("/editar.png", :title => "Editar perfil do aluno"), edit_aluno_path(a) %></td>
+		<td><%=link_to image_tag("/excluir.png", :title => "Excluir perfil do aluno"), a, method: :delete %></td>
 	</tr>
 	<% end %>
 </table>
