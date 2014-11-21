@@ -1,11 +1,11 @@
 # encoding: UTF-8
+require 'digest'
 class LoginController < ApplicationController
   def index
   end
 
   def login
-    new Usuario
-  	logado = Usuario.autenticar(params[:usuario],params[:senha])
+  	logado = Aluno.acharSupostoAluno(params[:usuario], Digest::MD5.hexdigest(params[:senha]))
   	if logado.nil?
   		flash[:error] = 'Dados incorretos'
   		render :index
