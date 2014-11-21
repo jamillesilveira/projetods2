@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   post 'login/login', as: :login
   post 'login/logout', as: :logout
 
-
   resources :questaos
   resources :disciplinas
   resources :alunos
