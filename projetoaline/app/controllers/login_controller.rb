@@ -4,11 +4,11 @@ class LoginController < ApplicationController
   end
 
   def login
+    new Usuario
   	logado = Usuario.autenticar(params[:usuario],params[:senha])
   	if logado.nil?
   		flash[:error] = 'Dados incorretos'
   		render :index
-
   	else
   		session[:sessao] = logado.nome
   		redirect_to root_path, notice: 'Login efetuado.'
