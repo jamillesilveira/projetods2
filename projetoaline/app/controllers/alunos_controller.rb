@@ -11,7 +11,7 @@ class AlunosController < ApplicationController
 	end
 
 	def edit
-		@aluno = Aluno.find(params[:id])
+		@aluno = Aluno.acharSupostoAluno(params[:id])
 	end
 
 	def create
@@ -27,11 +27,11 @@ class AlunosController < ApplicationController
 	end
 
 	def show
-		@aluno = Aluno.find(params[:id])
+		@aluno = Aluno.acharSupostoAluno(params[:id])
 	end
 
 	def destroy
-		a = Aluno.find(params[:id])
+		a = Aluno.acharSupostoAluno(params[:id])
 		a.destroy
 		redirect_to :aluno
 	end
