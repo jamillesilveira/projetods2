@@ -29,3 +29,28 @@ span {
 	margin-top: 70px;
 	margin-left: 700px;
 }
+
+.input {
+	width: 320px;
+	padding: 5px;
+	padding-left: 20px;
+	border: 1px solid #d35b94;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+h2 {
+	font-size: 18pt;
+	color: #d35b94;
+	padding-top: 50px;
+	padding-left: 60px;
+}
+table.perfil, table.alunos {
+	margin: 5px;
+	border-collapse: collapse;
+}
+
+table.perfil tr td, table.alunos tr td {
+	border: 1px solid black;
+	padding: 5px;
+}

@@ -1,4 +1,17 @@
 <h2><%= @aluno.nome %></h2>
-<h3>Matricula: <%= @aluno.matricula %></h3>
-<h3>Nascimento: <%= @aluno.dataDeNascimento %></h3>
-<h3>E-mail: <%= @aluno.email %></h3>
+<table class="perfil">
+	<thead>
+		<tr>
+			<td><strong>Matricula</strong></td>
+			<td><strong>Data de Nascimento</strong></td> 
+			<td><strong>E-mail</strong></td> 
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><%= @aluno.matricula %></td>
+			<td><%= @aluno.dataDeNascimento %></td>	
+			<td><%= @aluno.email %></td>
+		</tr>
+	</tbody>
+</table>
