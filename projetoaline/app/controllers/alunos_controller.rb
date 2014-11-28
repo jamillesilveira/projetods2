@@ -27,7 +27,7 @@ class AlunosController < ApplicationController
 	end
 
 	def show
-		@aluno = Aluno.acharSupostoAluno(params[:id])
+		@aluno = Aluno.find(params[:id])
 	end
 
 	def destroy
