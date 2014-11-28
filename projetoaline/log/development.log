@@ -31845,3 +31845,164 @@ ActionController::RoutingError (No route matches [GET] "/login/seta-login.png"):
   Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (38.4ms)
   Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.0ms)
   Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (298.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-28 18:06:20 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (12.6ms)
+Completed 200 OK in 732ms (Views: 583.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 18:06:23 -0200
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-11-28 18:06:27 -0200
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (192.9ms)
+Completed 200 OK in 314ms (Views: 279.3ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-11-28 18:06:53 -0200
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cI8t+Tt3I+jQbttd/lj3DfscbO1ghOQGktzFkF+KQnk=", "aluno"=>{"nome"=>"Jamille Silveira", "matricula"=>"11030086", "dataDeNascimento"=>"19/08/1995", "email"=>"jamillejami19@gmail.com", "senha"=>"1234"}, "commit"=>"Enviar"}
+  Rendered alunos_mailer/cadastrado.html.erb (1.6ms)
+
+AlunosMailer#cadastrado: processed outbound mail in 119.5ms
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError (undefined method `delivery' for #<Mail::Message:0xbc1c9dc>):
+  app/controllers/alunos_controller.rb:20:in `create'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (22.1ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (139.2ms)
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-11-28 18:07:24 -0200
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cI8t+Tt3I+jQbttd/lj3DfscbO1ghOQGktzFkF+KQnk=", "aluno"=>{"nome"=>"Jamille Silveira", "matricula"=>"11030086", "dataDeNascimento"=>"19/08/1995", "email"=>"jamillejami19@gmail.com", "senha"=>"1234"}, "commit"=>"Enviar"}
+  Rendered alunos_mailer/cadastrado.html.erb (0.4ms)
+
+AlunosMailer#cadastrado: processed outbound mail in 74.0ms
+
+Sent mail to jamillejami19@gmail.com (5803.6ms)
+Date: Fri, 28 Nov 2014 18:07:25 -0200
+From: nao.responda.ifrs.riogrande@gmail.com
+To: jamillejami19@gmail.com
+Message-ID: <5478d5fd414a0_a8d5a4448045572@ta.mail>
+Subject: [SITE ALINE] Confirme seu cadastro
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Bem-vindo, Jamille Silveira</h1>
+
+<p>
+	Clique <a href=3D"#">aqui</a> para confirmar seu cadastro no site de mat=
+em=C3=A1tica da professora Aline. =
+
+</p>
+
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "alunos" ("created_at", "dataDeNascimento", "email", "matricula", "nome", "senha", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-28 20:07:30.959026"], ["dataDeNascimento", "1995-08-19"], ["email", "jamillejami19@gmail.com"], ["matricula", "11030086"], ["nome", "Jamille Silveira"], ["senha", "1234"], ["updated_at", "2014-11-28 20:07:30.959026"]]
+  [1m[35m (49.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/alunos
+Completed 302 Found in 6067ms (ActiveRecord: 63.4ms)
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+Processing by AlunosController#index as HTML
+  [1m[36mAluno Load (0.6ms)[0m  [1mSELECT "alunos".* FROM "alunos"[0m
+  Rendered alunos/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 135ms (Views: 131.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:31 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:32 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:32 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:32 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:32 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:32 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:32 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 18:07:32 -0200

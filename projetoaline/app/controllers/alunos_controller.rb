@@ -16,6 +16,8 @@ class AlunosController < ApplicationController
 
 	def create
 		@aluno = Aluno.new(params.require(:aluno).permit(:nome, :matricula, :dataDeNascimento, :email, :senha))
+		email = AlunosMailer.cadastrado(@aluno)
+		email.deliver
 		@aluno.save	
 		redirect_to :alunos
 	end
