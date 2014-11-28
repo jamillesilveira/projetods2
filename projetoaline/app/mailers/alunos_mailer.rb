@@ -1,14 +1,12 @@
 class AlunosMailer < ActionMailer::Base
-  default from: "from@example.com"
+  default from: "nao.responda.ifrs.riogrande@gmail.com"
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
   #
   #   en.alunos_mailer.cadastrado.subject
   #
-  def cadastrado
-    @greeting = "Hi"
-
-    mail to: "to@example.org"
+  def cadastrado(u)
+    mail to: u.email, subject: "[SITE ALINE] Confirme seu cadastro"
   end
 end
