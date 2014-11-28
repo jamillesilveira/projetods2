@@ -30542,3 +30542,621 @@ Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-14 11:04:54 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 11:04:54 -0200
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-11-14 11:11:57 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AlunosController#index as HTML
+  [1m[35mAluno Load (1.1ms)[0m  SELECT "alunos".* FROM "alunos"
+  Rendered alunos/index.html.erb within layouts/application (96.0ms)
+Completed 200 OK in 621ms (Views: 435.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 11:11:59 -0200
+
+
+Started GET "/alunos/7" for 127.0.0.1 at 2014-11-14 11:12:46 -0200
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAluno Load (1.8ms)[0m  [1mSELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered alunos/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 115ms (Views: 75.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/alunos/7/edit" for 127.0.0.1 at 2014-11-14 11:17:00 -0200
+Processing by AlunosController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mAluno Load (0.4ms)[0m  SELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered alunos/edit.html.erb within layouts/application (81.9ms)
+Completed 200 OK in 138ms (Views: 133.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-11-14 11:17:10 -0200
+Processing by DisciplinasController#index as HTML
+  [1m[36mDisciplina Load (0.7ms)[0m  [1mSELECT "disciplinas".* FROM "disciplinas"[0m
+  Rendered disciplinas/index.html.erb within layouts/application (57.3ms)
+Completed 200 OK in 149ms (Views: 121.1ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:10 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:11 -0200
+
+
+Started GET "/disciplinas/new" for 127.0.0.1 at 2014-11-14 11:17:23 -0200
+Processing by DisciplinasController#new as HTML
+  Rendered disciplinas/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 110ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/disciplinas" for 127.0.0.1 at 2014-11-14 11:17:34 -0200
+Processing by DisciplinasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cI8t+Tt3I+jQbttd/lj3DfscbO1ghOQGktzFkF+KQnk=", "disciplina"=>{"codigoDisciplina"=>"1", "descricaoDisciplina"=>"portugues"}, "commit"=>"Criar"}
+  [1m[35m (4.4ms)[0m  begin transaction
+  [1m[36mSQL (15.9ms)[0m  [1mINSERT INTO "disciplinas" ("codigoDisciplina", "created_at", "descricaoDisciplina", "updated_at") VALUES (?, ?, ?, ?)[0m  [["codigoDisciplina", "1"], ["created_at", "2014-11-14 13:17:34.503761"], ["descricaoDisciplina", "portugues"], ["updated_at", "2014-11-14 13:17:34.503761"]]
+  [1m[35m (95.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/disciplinas
+Completed 302 Found in 189ms (ActiveRecord: 115.9ms)
+
+
+Started GET "/disciplinas" for 127.0.0.1 at 2014-11-14 11:17:34 -0200
+Processing by DisciplinasController#index as HTML
+  [1m[36mDisciplina Load (1.0ms)[0m  [1mSELECT "disciplinas".* FROM "disciplinas"[0m
+  Rendered disciplinas/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 88ms (Views: 84.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 11:17:35 -0200
+
+
+Started GET "/disciplinas/7" for 127.0.0.1 at 2014-11-14 11:18:04 -0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for DisciplinasController):
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/u/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-20 15:07:49 -0200
+Processing by AlunosController#home as HTML
+  Rendered alunos/home.erb within layouts/application (9.2ms)
+Completed 200 OK in 123ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-20 15:07:49 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-20 15:07:49 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-20 15:07:49 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-20 15:07:49 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-20 15:07:49 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-20 15:07:49 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-20 15:07:50 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-20 15:07:50 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-20 15:07:50 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-20 15:07:50 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-20 15:07:50 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-20 15:07:50 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-20 15:07:50 -0200
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-11-20 15:07:56 -0200
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 157ms (Views: 154.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alunos/login" for 127.0.0.1 at 2014-11-20 15:08:04 -0200
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"login"}
+  [1m[35mAluno Load (0.4ms)[0m  SELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 31ms
+
+ActiveRecord::RecordNotFound (Couldn't find Aluno with 'id'=login):
+  app/controllers/alunos_controller.rb:30:in `show'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.4ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (164.9ms)
+
+
+Started GET "/alunos/login" for 127.0.0.1 at 2014-11-20 15:08:05 -0200
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"login"}
+  [1m[36mAluno Load (0.1ms)[0m  [1mSELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 14ms
+
+ActiveRecord::RecordNotFound (Couldn't find Aluno with 'id'=login):
+  app/controllers/alunos_controller.rb:30:in `show'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.8ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.9ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (173.4ms)
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-11-20 15:08:11 -0200
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 160ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:12 -0200
+
+
+Started GET "/alunos/" for 127.0.0.1 at 2014-11-20 15:08:23 -0200
+Processing by AlunosController#index as HTML
+  [1m[35mAluno Load (0.8ms)[0m  SELECT "alunos".* FROM "alunos"
+  Rendered alunos/index.html.erb within layouts/application (49.2ms)
+Completed 200 OK in 130ms (Views: 127.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:24 -0200
+
+
+Started GET "/alunos/7" for 127.0.0.1 at 2014-11-20 15:08:28 -0200
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAluno Load (0.4ms)[0m  [1mSELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered alunos/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 91ms (Views: 79.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/alunos/7/edit" for 127.0.0.1 at 2014-11-20 15:08:34 -0200
+Processing by AlunosController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mAluno Load (0.5ms)[0m  SELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered alunos/edit.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 105ms (Views: 95.1ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/alunos/7" for 127.0.0.1 at 2014-11-20 15:08:39 -0200
+Processing by AlunosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cI8t+Tt3I+jQbttd/lj3DfscbO1ghOQGktzFkF+KQnk=", "id"=>"7"}
+  [1m[36mAluno Load (0.5ms)[0m  [1mSELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (3.7ms)[0m  [1mDELETE FROM "alunos" WHERE "alunos"."id" = ?[0m  [["id", 7]]
+  [1m[35m (352.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/alunos/7
+Completed 302 Found in 387ms (ActiveRecord: 357.4ms)
+
+
+Started GET "/alunos/7" for 127.0.0.1 at 2014-11-20 15:08:40 -0200
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAluno Load (16.4ms)[0m  [1mSELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1[0m  [["id", 7]]
+Completed 404 Not Found in 25ms
+
+ActiveRecord::RecordNotFound (Couldn't find Aluno with 'id'=7):
+  app/controllers/alunos_controller.rb:30:in `show'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (192.9ms)
+
+
+Started GET "/alunos/" for 127.0.0.1 at 2014-11-20 15:08:44 -0200
+Processing by AlunosController#index as HTML
+  [1m[35mAluno Load (0.7ms)[0m  SELECT "alunos".* FROM "alunos"
+  Rendered alunos/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 129ms (Views: 126.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-20 15:08:45 -0200
+
+
+Started GET "/alunos/" for 127.0.0.1 at 2014-11-28 16:17:32 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AlunosController#index as HTML
+  [1m[35mAluno Load (2.0ms)[0m  SELECT "alunos".* FROM "alunos"
+  Rendered alunos/index.html.erb within layouts/application (94.4ms)
+Completed 200 OK in 720ms (Views: 577.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:34 -0200
+
+
+Started GET "/alunos/login" for 127.0.0.1 at 2014-11-28 16:17:37 -0200
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"login"}
+  [1m[36mAluno Load (0.7ms)[0m  [1mSELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 21ms
+
+ActiveRecord::RecordNotFound (Couldn't find Aluno with 'id'=login):
+  app/controllers/alunos_controller.rb:30:in `show'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.7ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.4ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (114.9ms)
+
+
+Started GET "/alunos/login" for 127.0.0.1 at 2014-11-28 16:17:38 -0200
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"login"}
+  [1m[35mAluno Load (0.3ms)[0m  SELECT  "alunos".* FROM "alunos"  WHERE "alunos"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 9ms
+
+ActiveRecord::RecordNotFound (Couldn't find Aluno with 'id'=login):
+  app/controllers/alunos_controller.rb:30:in `show'
+
+
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (21.4ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.3ms)
+  Rendered /home/u/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (133.9ms)
+
+
+Started GET "/alunos" for 127.0.0.1 at 2014-11-28 16:17:54 -0200
+Processing by AlunosController#index as HTML
+  [1m[36mAluno Load (0.6ms)[0m  [1mSELECT "alunos".* FROM "alunos"[0m
+  Rendered alunos/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 87ms (Views: 84.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 16:17:55 -0200
