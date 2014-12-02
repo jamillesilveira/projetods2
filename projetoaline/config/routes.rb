@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   
   root 'home#index'
 
+  get 'inicio' => 'alunos#home.html'
+
 # 04a38fbfcdd9059558d553a4df47a748f856d1a5
 
 
