@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   #post 'login/login', as: :login
   #post 'login/logout', as: :logout
   
-  root 'home#index'
+  root 'login#index'
 
   get 'inicio' => 'alunos#home.html'
 
