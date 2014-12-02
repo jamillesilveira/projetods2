@@ -1,6 +1,10 @@
 <div class="container">
 	<% if session[:aluno] %>
-		Bem-vindo, <%= session[:aluno] %>
+		<center>
+			<h1>Seja bem-vindo, <%= session[:aluno] %>!</h1>
+			<br>
+			<p class="descricao">Para continuar e ver todo conteúdo e listas, escolha uma disciplina.</p>
+		</center>
 
 		<%= form_tag({controller: 'login', action: 'logout'}) do  %>
 			<button> Deslogar </button>
