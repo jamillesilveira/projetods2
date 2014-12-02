@@ -35,6 +35,6 @@ class AlunosController < ApplicationController
 	def destroy
 		a = Aluno.find(params[:id])
 		a.destroy
-		redirect_to :aluno
+		redirect_to :alunos
 	end
 end
