@@ -14,8 +14,7 @@ Rails.application.routes.draw do
   #post 'login/login', as: :login
   #post 'login/logout', as: :logout
   
-
-  root 'alunos#home'
+  root 'home#index'
 
 # 04a38fbfcdd9059558d553a4df47a748f856d1a5
 
