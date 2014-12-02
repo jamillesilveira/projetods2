@@ -7,7 +7,7 @@ class LoginController < ApplicationController
 
   def login
     #O digest tem que ser feito e verificado com outro digest
-  	logado = Aluno.find_by_nome_and_senha(params[:usuario], params[:senha])
+  	logado = Aluno.find_by_matricula_and_senha(params[:usuario], params[:senha])
 
     if logado.nil?
   		render :index
