@@ -6,11 +6,10 @@ class LoginController < ApplicationController
   end
 
   def login
-    #O digest tem que ser feito e verificado com outro digest
   	logado = Aluno.find_by_matricula_and_senha(params[:usuario], params[:senha])
 
     if logado.nil?
-  		render :index
+  		redirect_to root_path
     else
   		session[:aluno] = logado.nome
   		redirect_to '/inicio', notice: 'Login efetuado.'

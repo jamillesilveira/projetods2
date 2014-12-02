@@ -57,5 +57,18 @@ table.perfil tr td, table.alunos tr td {
 
 .login {
 	display: inline;
-	float: rigth;
+	position: absolute;
+	right: 50px;
+	top: 40px;
+}
+
+.inp-login {
+	width: 140px;
+	padding: 5px;
+	padding-left: 20px;
+	border: 1px solid #d35b94;
+	border-radius: 0px;
+	margin: 5px;
+	position: relative;
+	top: -10px;
 }
