@@ -20,7 +20,18 @@ Rails.application.routes.draw do
   get 'matematicaI' => 'disciplinas#matematicaI.html'
   get 'matematicaII' => 'disciplinas#matematicaII.html'
   get 'matematicaIII' => 'disciplinas#matematicaIII.html'
-
+  get 'matematicaI/1bim' => 'disciplinas#matematicaI-1bim.html'
+  get 'matematicaI/2bim' => 'disciplinas#matematicaI-2bim.html'
+  get 'matematicaI/3bim' => 'disciplinas#matematicaI-3bim.html'
+  get 'matematicaI/4bim' => 'disciplinas#matematicaI-4bim.html'
+  get 'matematicaII/1bim' => 'disciplinas#matematicaII-1bim.html'
+  get 'matematicaII/2bim' => 'disciplinas#matematicaII-2bim.html'
+  get 'matematicaII/3bim' => 'disciplinas#matematicaII-3bim.html'
+  get 'matematicaII/4bim' => 'disciplinas#matematicaII-4bim.html'
+  get 'matematicaIII/1bim' => 'disciplinas#matematicaIII-1bim.html'
+  get 'matematicaIII/2bim' => 'disciplinas#matematicaIII-2bim.html'
+  get 'matematicaIII/3bim' => 'disciplinas#matematicaIII-3bim.html'
+  get 'matematicaIII/4bim' => 'disciplinas#matematicaIII-4bim.html'
 
 
 # 04a38fbfcdd9059558d553a4df47a748f856d1a5
