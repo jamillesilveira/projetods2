@@ -1,5 +1,12 @@
+<% require 'digest'
+
+%>
+
+
 <h1>Bem-vindo, <%= @aluno.nome %></h1>
 
 <p>
 	Clique <a href="#">aqui</a> para confirmar seu cadastro no site de matemática da professora Aline. 
+	Seu token é " 
+	<%= Digest::SHA1.hexdigest([Time.now, rand].join) %> "
 </p>
