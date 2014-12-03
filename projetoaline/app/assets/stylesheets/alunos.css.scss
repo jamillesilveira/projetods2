@@ -113,3 +113,28 @@ table.perfil tr td, table.alunos tr td {
   background-image: linear-gradient(to bottom, #eebad1, #d55e96);
   text-decoration: none;
 }
+
+#menu-sup ul {
+	padding:10px;
+	margin-top:-150px;
+	float: right;
+	list-style:none;
+}
+ 
+#menu-sup ul li { 
+	display: inline; 
+}
+ 
+#menu-sup ul li a {
+	background-color:#84d76d;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px;
+	margin: 0px 10px;;
+	float:left;
+	border-radius: 10px;
+}
+
+#menu-sup ul li a:hover, #menu-sup ul li a.on {
+	background-color:#0a624c;
+}
