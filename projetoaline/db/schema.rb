@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140926134344) do
+ActiveRecord::Schema.define(version: 20141203200227) do
 
   create_table "alunos", force: true do |t|
     t.string   "nome"
@@ -54,6 +54,13 @@ ActiveRecord::Schema.define(version: 20140926134344) do
     t.integer  "cod"
     t.string   "enunciado"
     t.string   "resposta"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tokens", force: true do |t|
+    t.string   "dono"
+    t.string   "valor"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
