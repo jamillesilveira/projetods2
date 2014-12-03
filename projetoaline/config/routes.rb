@@ -19,6 +19,10 @@ Rails.application.routes.draw do
   get 'inicio' => 'alunos#home.html'
   get 'confirmacao' => 'alunos#confirma.html'
   get 'matematicaI' => 'disciplinas#matematicaI.html'
+  get 'matematicaII' => 'disciplinas#matematicaII.html'
+  get 'matematicaIII' => 'disciplinas#matematicaIII.html'
+
+
 
 # 04a38fbfcdd9059558d553a4df47a748f856d1a5
 
