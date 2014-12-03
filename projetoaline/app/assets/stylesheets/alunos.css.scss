@@ -138,3 +138,37 @@ table.perfil tr td, table.alunos tr td {
 #menu-sup ul li a:hover, #menu-sup ul li a.on {
 	background-color:#0a624c;
 }
+
+#menu-lat ul {
+	padding:10px;
+	margin-top:0px;
+	float: left;
+	list-style:none;
+	background-color: white;
+	border-radius: 5px;
+}
+ 
+#menu-lat ul li { 
+	display: block; 
+}
+
+#menu-lat ul p { 
+	display: block;
+	padding: 20px; 
+	width: 114px;
+	color: #c5c5cd;
+}
+ 
+#menu-lat ul li a {
+	background-color:#f19db8;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 5px 20px;;
+	float:left;
+	border-radius: 10px;
+}
+
+#menu-lat ul li a:hover, #menu-lat ul li a.on {
+	background-color:#d25b93;
+}
