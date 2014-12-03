@@ -17,7 +17,7 @@ class LoginController < ApplicationController
   end
 
   def logout
-    reset_ session 
+    reset_session 
     redirect_to root_path, notice: 'Deslogado com sucesso'
   end
 end

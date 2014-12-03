@@ -1,5 +1,5 @@
 #enconding: UTF-8
-require 'Digest'
+require 'digest'
 
 class AlunosController < ApplicationController
 
@@ -23,7 +23,7 @@ class AlunosController < ApplicationController
 		email = AlunosMailer.cadastrado(@aluno,token)
 		email.deliver
 		@aluno.save	
-		redirect_to :alunos
+		redirect_to '/confirmacao'
 	end
 
 	def update
