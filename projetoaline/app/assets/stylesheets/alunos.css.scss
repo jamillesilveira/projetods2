@@ -79,3 +79,37 @@ table.perfil tr td, table.alunos tr td {
 	position: relative;
 	top: -10px;
 }
+
+.btn-logout {
+	position: absolute;
+	top: 40px;
+	right: 50px;
+}
+
+.btn {
+  background: #d55e96;
+  background-image: -webkit-linear-gradient(top, #d55e96, #eebad1);
+  background-image: -moz-linear-gradient(top, #d55e96, #eebad1);
+  background-image: -ms-linear-gradient(top, #d55e96, #eebad1);
+  background-image: -o-linear-gradient(top, #d55e96, #eebad1);
+  background-image: linear-gradient(to bottom, #d55e96, #eebad1);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 5px 10px 5px 10px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #eebad1;
+  background-image: -webkit-linear-gradient(top, #eebad1, #d55e96);
+  background-image: -moz-linear-gradient(top, #eebad1, #d55e96);
+  background-image: -ms-linear-gradient(top, #eebad1, #d55e96);
+  background-image: -o-linear-gradient(top, #eebad1, #d55e96);
+  background-image: linear-gradient(to bottom, #eebad1, #d55e96);
+  text-decoration: none;
+}
