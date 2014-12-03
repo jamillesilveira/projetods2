@@ -6,8 +6,13 @@ class AlunosMailer < ActionMailer::Base
   #
   #   en.alunos_mailer.cadastrado.subject
   #
-  def cadastrado(u)
+  def cadastrado(u,token)
     @aluno = u
+    @token = token
+    
+
     mail to: u.email, subject: "[SITE ALINE] Confirme seu cadastro"
+
+
   end
 end

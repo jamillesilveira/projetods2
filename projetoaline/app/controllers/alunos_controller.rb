@@ -1,4 +1,5 @@
 #enconding: UTF-8
+require 'Digest'
 
 class AlunosController < ApplicationController
 
@@ -16,7 +17,10 @@ class AlunosController < ApplicationController
 
 	def create
 		@aluno = Aluno.new(params.require(:aluno).permit(:nome, :matricula, :dataDeNascimento, :email, :senha))
-		email = AlunosMailer.cadastrado(@aluno)
+
+		token = Digest::SHA1.hexdigest([Time.now, rand].join)
+		
+		email = AlunosMailer.cadastrado(@aluno,token)
 		email.deliver
 		@aluno.save	
 		redirect_to :alunos
