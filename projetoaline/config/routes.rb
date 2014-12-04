@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   get 'matematicaII' => 'disciplinas#matematicaII.html'
   get 'matematicaIII' => 'disciplinas#matematicaIII.html'
 
-
+  get 'validatoken' => 'alunos#validatoken.html'
 
 # 04a38fbfcdd9059558d553a4df47a748f856d1a5
 

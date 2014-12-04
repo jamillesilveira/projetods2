@@ -18,9 +18,9 @@ class AlunosController < ApplicationController
 	def create
 		@aluno = Aluno.new(params.require(:aluno).permit(:nome, :matricula, :dataDeNascimento, :email, :senha))
 
-		token = Digest::SHA1.hexdigest([Time.now, rand].join)
+		session[:token] = Digest::SHA1.hexdigest([Time.now, rand].join)
 		
-		email = AlunosMailer.cadastrado(@aluno,token)
+		email = AlunosMailer.cadastrado(@aluno,session[:token])
 		email.deliver
 		@aluno.save	
 		redirect_to '/confirmacao'
