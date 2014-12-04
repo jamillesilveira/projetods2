@@ -1,8 +1,6 @@
-<h1>Bem-vindo, <%= @aluno.nome %></h1>
+<h1>Bem-vindo(a), <%= @aluno.nome %></h1>
 
 <p>
-	 <!--link_to 'Patient Record', patient_path(@patient) -->
-
-	Clique <a href="localhost:3000/valida?token=<%= @token %> ">aqui</a> para confirmar seu cadastro no site de matemática da professora Aline. 
-	
+	Copie o token para confirmar seu cadastro no site de matemática da professora Aline. 
 </p>
+<h2>Seu token é: <%= @token %> </h2>
