@@ -47206,3 +47206,130 @@ Started GET "/matematicaIII/1bim" for 127.0.0.1 at 2014-12-04 14:31:51 -0200
 Processing by DisciplinasController#matematicaIII-1bim.html as HTML
   Rendered disciplinas/matematicaIII-1bim.html.erb within layouts/application (9.6ms)
 Completed 200 OK in 2691ms (Views: 2606.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaIII/1bim" for 127.0.0.1 at 2014-12-04 14:35:52 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DisciplinasController#matematicaIII-1bim.html as HTML
+  Rendered disciplinas/matematicaIII-1bim.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1875ms (Views: 1672.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-12-04 14:35:58 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-12-04 14:35:58 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-04 14:35:58 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-04 14:35:58 -0200
+
+
+Started GET "/assets/token.css?body=1" for 127.0.0.1 at 2014-12-04 14:35:58 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/token.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 14:35:59 -0200
+
+
+Started GET "/matematicaIII/2bim" for 127.0.0.1 at 2014-12-04 14:36:09 -0200
+Processing by DisciplinasController#matematicaIII-2bim.html as HTML
+  Rendered disciplinas/matematicaIII-2bim.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 115ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaIII/2bim" for 127.0.0.1 at 2014-12-04 14:36:25 -0200
+Processing by DisciplinasController#matematicaIII-2bim.html as HTML
+  Rendered disciplinas/matematicaIII-2bim.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 156ms (Views: 152.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/token.css?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:26 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:27 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:27 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:27 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:27 -0200
+
+
+Started GET "/assets/token.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:27 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 14:36:27 -0200
+
+
+Started GET "/matematicaIII/3bim" for 127.0.0.1 at 2014-12-04 14:36:32 -0200
+Processing by DisciplinasController#matematicaIII-3bim.html as HTML
+  Rendered disciplinas/matematicaIII-3bim.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 124ms (Views: 121.4ms | ActiveRecord: 0.0ms)
