@@ -44847,3 +44847,169 @@ Started GET "/assets/token.js?body=1" for 127.0.0.1 at 2014-12-03 20:42:47 -0200
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:42:47 -0200
+
+
+Started GET "/matematicaI" for 127.0.0.1 at 2014-12-03 21:10:51 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DisciplinasController#matematicaI.html as HTML
+  Rendered disciplinas/matematicaI.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 684ms (Views: 568.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaI/1bim" for 127.0.0.1 at 2014-12-03 21:10:57 -0200
+Processing by DisciplinasController#matematicaI-1bim.html as HTML
+  Rendered disciplinas/matematicaI-1bim.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 59ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaI/2bim" for 127.0.0.1 at 2014-12-03 21:11:01 -0200
+Processing by DisciplinasController#matematicaI-2bim.html as HTML
+  Rendered disciplinas/matematicaI-2bim.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaI/3bim" for 127.0.0.1 at 2014-12-03 21:11:05 -0200
+Processing by DisciplinasController#matematicaI-3bim.html as HTML
+  Rendered disciplinas/matematicaI-3bim.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaI/4bim" for 127.0.0.1 at 2014-12-03 21:11:09 -0200
+Processing by DisciplinasController#matematicaI-4bim.html as HTML
+  Rendered disciplinas/matematicaI-4bim.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaII" for 127.0.0.1 at 2014-12-03 21:11:15 -0200
+Processing by DisciplinasController#matematicaII.html as HTML
+  Rendered disciplinas/matematicaII.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 66ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaII/1bim" for 127.0.0.1 at 2014-12-03 21:11:18 -0200
+Processing by DisciplinasController#matematicaII-1bim.html as HTML
+  Rendered disciplinas/matematicaII-1bim.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 122ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaI/2bim" for 127.0.0.1 at 2014-12-03 21:11:21 -0200
+Processing by DisciplinasController#matematicaI-2bim.html as HTML
+  Rendered disciplinas/matematicaI-2bim.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 54ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaI/2bim" for 127.0.0.1 at 2014-12-03 21:15:31 -0200
+Processing by DisciplinasController#matematicaI-2bim.html as HTML
+  Rendered disciplinas/matematicaI-2bim.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-12-03 21:15:31 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-12-03 21:15:31 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-12-03 21:15:31 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-03 21:15:31 -0200
+
+
+Started GET "/assets/token.css?body=1" for 127.0.0.1 at 2014-12-03 21:15:31 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 21:15:31 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 21:15:31 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/token.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 21:15:32 -0200
+
+
+Started GET "/matematicaII" for 127.0.0.1 at 2014-12-03 21:15:37 -0200
+Processing by DisciplinasController#matematicaII.html as HTML
+  Rendered disciplinas/matematicaII.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 94ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaII/1bim" for 127.0.0.1 at 2014-12-03 21:15:40 -0200
+Processing by DisciplinasController#matematicaII-1bim.html as HTML
+  Rendered disciplinas/matematicaII-1bim.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 105ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaII/2bim" for 127.0.0.1 at 2014-12-03 21:15:43 -0200
+Processing by DisciplinasController#matematicaII-2bim.html as HTML
+  Rendered disciplinas/matematicaII-2bim.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 94ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaII/3bim" for 127.0.0.1 at 2014-12-03 21:15:46 -0200
+Processing by DisciplinasController#matematicaII-3bim.html as HTML
+  Rendered disciplinas/matematicaII-3bim.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaII/4bim" for 127.0.0.1 at 2014-12-03 21:15:48 -0200
+Processing by DisciplinasController#matematicaII-4bim.html as HTML
+  Rendered disciplinas/matematicaII-4bim.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 100ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaIII" for 127.0.0.1 at 2014-12-03 21:15:50 -0200
+Processing by DisciplinasController#matematicaIII.html as HTML
+  Rendered disciplinas/matematicaIII.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaIII/1bim" for 127.0.0.1 at 2014-12-03 21:15:53 -0200
+Processing by DisciplinasController#matematicaIII-1bim.html as HTML
+  Rendered disciplinas/matematicaIII-1bim.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaIII/2bim" for 127.0.0.1 at 2014-12-03 21:15:56 -0200
+Processing by DisciplinasController#matematicaIII-2bim.html as HTML
+  Rendered disciplinas/matematicaIII-2bim.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 73ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaIII/3bim" for 127.0.0.1 at 2014-12-03 21:15:59 -0200
+Processing by DisciplinasController#matematicaIII-3bim.html as HTML
+  Rendered disciplinas/matematicaIII-3bim.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaIII/4bim" for 127.0.0.1 at 2014-12-03 21:16:01 -0200
+Processing by DisciplinasController#matematicaIII-4bim.html as HTML
+  Rendered disciplinas/matematicaIII-4bim.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.0ms)
