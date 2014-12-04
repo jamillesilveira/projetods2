@@ -45256,3 +45256,219 @@ Started GET "/matematicaI/2bim" for 127.0.0.1 at 2014-12-04 10:59:31 -0200
 Processing by DisciplinasController#matematicaI-2bim.html as HTML
   Rendered disciplinas/matematicaI-2bim.html.erb within layouts/application (6.5ms)
 Completed 200 OK in 997ms (Views: 786.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/matematicaI/2bim" for 127.0.0.1 at 2014-12-04 12:35:06 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DisciplinasController#matematicaI-2bim.html as HTML
+  Rendered disciplinas/matematicaI-2bim.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 1083ms (Views: 897.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:09 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:09 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:09 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:09 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:09 -0200
+
+
+Started GET "/assets/token.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/token.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:10 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 12:35:24 -0200
+Processing by LoginController#index as HTML
+  Rendered login/index.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 123ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/token.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:25 -0200
+
+
+Started GET "/assets/token.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:26 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:26 -0200
+
+
+Started GET "/alunos/new" for 127.0.0.1 at 2014-12-04 12:35:31 -0200
+Processing by AlunosController#new as HTML
+  Rendered alunos/new.html.erb within layouts/application (247.1ms)
+Completed 200 OK in 367ms (Views: 317.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/alunos" for 127.0.0.1 at 2014-12-04 12:35:47 -0200
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2NLyxqzoNXc7v5AMtjvZjyr7gzRvPibDU+a1bnH27wo=", "aluno"=>{"nome"=>"hdai", "matricula"=>"AA", "dataDeNascimento"=>"DHAIUHD", "email"=>"jamillejami19@gmail.com", "senha"=>"OI"}, "commit"=>"Enviar"}
+  Rendered alunos_mailer/cadastrado.html.erb (6.0ms)
+
+AlunosMailer#cadastrado: processed outbound mail in 227.7ms
+
+Sent mail to jamillejami19@gmail.com (7350.9ms)
+Date: Thu, 04 Dec 2014 12:35:48 -0200
+From: nao.responda.ifrs.riogrande@gmail.com
+To: jamillejami19@gmail.com
+Message-ID: <548071447defd_26c85cc963840932@ta.mail>
+Subject: [SITE ALINE] Confirme seu cadastro
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Bem-vindo, hdai</h1>
+
+<p>
+	 <!--link_to 'Patient Record', patient_path(@patient) -->
+
+	Clique <a href=3D"localhost:3000/valida?token=3Def55ac1cf9c339021b25aeff=
+825b00aba5e1714a ">aqui</a> para confirmar seu cadastro no site de matem=C3=
+=A1tica da professora Aline. =
+
+	=
+
+</p>
+
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (6.6ms)[0m  [1mINSERT INTO "alunos" ("created_at", "email", "matricula", "nome", "senha", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-12-04 14:35:55.608284"], ["email", "jamillejami19@gmail.com"], ["matricula", "AA"], ["nome", "hdai"], ["senha", "OI"], ["updated_at", "2014-12-04 14:35:55.608284"]]
+  [1m[35m (44.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/confirmacao
+Completed 302 Found in 7838ms (ActiveRecord: 51.9ms)
+
+
+Started GET "/confirmacao" for 127.0.0.1 at 2014-12-04 12:35:55 -0200
+Processing by AlunosController#confirma.html as HTML
+  Rendered alunos/confirma.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 87ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/alunos.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/disciplinas.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/questaos.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/token.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/alunos.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/disciplinas.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/questaos.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/token.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 12:35:56 -0200

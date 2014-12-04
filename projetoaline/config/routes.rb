@@ -20,10 +20,6 @@ Rails.application.routes.draw do
   get 'matematicaI' => 'disciplinas#matematicaI.html'
   get 'matematicaII' => 'disciplinas#matematicaII.html'
   get 'matematicaIII' => 'disciplinas#matematicaIII.html'
-<<<<<<< HEAD
-
-  get 'validatoken' => 'alunos#validatoken.html'
-=======
   get 'matematicaI/1bim' => 'disciplinas#matematicaI-1bim.html'
   get 'matematicaI/2bim' => 'disciplinas#matematicaI-2bim.html'
   get 'matematicaI/3bim' => 'disciplinas#matematicaI-3bim.html'
@@ -36,8 +32,8 @@ Rails.application.routes.draw do
   get 'matematicaIII/2bim' => 'disciplinas#matematicaIII-2bim.html'
   get 'matematicaIII/3bim' => 'disciplinas#matematicaIII-3bim.html'
   get 'matematicaIII/4bim' => 'disciplinas#matematicaIII-4bim.html'
+  get 'validatoken' => 'alunos#validatoken.html'
 
->>>>>>> 8915f2148267f500f767508363773bcfeee1a91d
 
 # 04a38fbfcdd9059558d553a4df47a748f856d1a5
 
