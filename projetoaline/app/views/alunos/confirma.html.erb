@@ -1,5 +1,11 @@
 <div class="container">
 <center>
 	<h1>Você irá receber um e-mail para confirmar seu cadastro!</h1>
+	<p>Após, copie o token e insira-o aqui:</p>
+	<%= form_for session[:token] do |t| %>
+		<%= t.text_field :valor, class: "input", placeholder: "Insira seu token aqui" %>
+		<br/>
+		<%= t.submit 'Confirmar', class: "btn" %>
+	<% end %>
 </center>
 </div>
